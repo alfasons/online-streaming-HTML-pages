@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+    font-size: 62.5%;
+    --Family : 'Bebas Neue', cursive;
+    --Family2 : 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-black{
+    background-color: #121212;
+}
+
+.minHeight {
+    min-height: 80vh;
+    padding-bottom: 3rem;
+}
+
+/* Header Section Start */
+
+.Bg_Image{
+    height: 100vh;
+    
+    background-image: url("../../images/bannerBackground.jpg");
+    background-position: center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.nav-link{
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    font-family: var(--Family);
+}
+
+.Header_Label{
+    max-height: 14rem;
+    padding: 3rem 0rem;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.Header_Label h1{
+  font-size: 3vw;
+  letter-spacing: .3rem;
+  color: #fff;
+  font-family: var(--Family);
+
+}
+.Header_Label h4{
+    min-width: 16%;
+    text-align: center;
+    padding: 0.8rem 0rem;
+     font-size: 1.3vw;
+    letter-spacing: .3rem;
+   color: #fff;
+  font-family: var(--Family);
+
+}
+/* Header Section End */
+/*  Section 2 Start */
+.SectionPadding{
+    padding: 0rem 10rem;
+}
+.Section_2_Topheading{
+    padding: 4rem 0rem;
+}
+.Section_2_Topheading h3{
+    font-size: 0.9vw;
+    text-shadow: 1px 1px 10px  rgba(255, 255, 0, 0.897);
+    font-family: var(--Family2);
+    text-transform: uppercase;
+}
+.Section_2_Topheading2 h3{
+    font-family: var(--Family2);
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: 300;
+    padding: 1rem 0rem;
+    font-style: italic ;
+}
+
+
+.Sec_2_InnerHeading h2{
+color: #fcd300;
+font-family: var(--Family2);
+font-size: 2vw;
+}
+.Sec_2_InnerHeading p{
+color: #fff;
+font-family: var(--Family2);
+margin-top: 2.5rem;
+font-size: 0.9vw;
+font-weight: 100;
+}
+
+
+.Sec_2_InnerHeading2 h3{
+font-size: 1.1vw;
+font-family: var(--Family);
+color: #fcd300;
+letter-spacing: 0.1rem;
+}
+.Sec_2_InnerHeading2 h2{
+font-size: 1vw;
+font-family: var(--Family2);
+color: #fff;
+letter-spacing: 0.1rem;
+}
+/*  Section 2 End */
+
+
+
+
+
+
+
+
+
+/*  Section 3 Start */
+.Sec_3_Heading h1{
+font-size: 1.8vw;
+color: #fff;
+font-weight: 400;
+letter-spacing: .3rem;
+text-transform: uppercase;
+font-family: var(--Family2);
+padding: 5rem 0rem;
+}
+.Sec_3_Heading h1 span{
+font-size: 1.8vw;
+color: #fcd300;
+text-transform: uppercase;
+font-family: var(--Family2);
+padding: 5rem 0rem;
+}
+
+.carouselHeight{
+    background-color: #fff;
+    height: 30rem;
+    
+}
+
+.SlideBtn{
+    background-color: #5e5e5e !important;
+    width: 1vw !important;
+    height: 1vw !important;
+    border-radius: 50%;
+}
+.carousel-indicators > .active:focus{
+    
+    background-color: #fcd300 !important;
+}
+/*  Section 3 End */
+/*  Section 4 End */
+.Sec4_Heading h1{
+    font-family: var(--Family);
+    color: #fcd300;
+    font-size: 3vw;
+    }
+    
+    
+    .card-title{
+        font-family: var(--Family2);
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .CARD_BORDER{
+        border: 2px solid #fff;
+        border-radius: 2rem 2rem 2rem 2rem;
+    }
+    .hovereffect {
+        width: 100%;
+        height: 100%;
+        float: left;
+        border-radius: 2rem;
+       
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+      }
+      
+           
+      .hovereffect img {
+        display: block;
+        position: relative;
+
+        border-radius: 2rem;
+        -webkit-transition: all 0.4s ease-in;
+        transition: all 0.4s ease-in;
+      }
+      
+      .hovereffect:hover img {
+        
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+       
+        transform: scale(1.2);
+      }
+      
+   
+    
+
+/*  Section 4 End */
+/*  Section 6 End */
+.Sec6_Heading h1{
+font-size: 2vw;
+color: #fcd300;
+
+font-family: var(--Family2);
+}
+/*  Section 6 End */
+/*  Section 7 End */
+.Heading_7{
+    top: 50%;
+    font-size: 3vw;
+    font-family: var(--Family2);
+    font-weight: 600;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+/*  Section 7 End */
+
+/* End Section Start */
+.LastSection{
+    padding: 3rem 0rem;
+}
+
+.Sec9_heading h1{
+font-family: var(--Family);
+text-transform: uppercase;
+font-size: 2.1vw;
+color: #fff;
+}
+.Sec9_heading button{
+font-family: var(--Family);
+text-transform: uppercase;
+font-size: 2.1vw;
+color: rgb(0, 0, 0);
+background-color: #fcd300;
+border: none;
+border-radius: 1rem;
+outline: none;
+cursor: pointer;
+
+width: 30rem;
+}
+.Sec9_heading button:hover{
+box-shadow: 3px 3px 10px #fcd20048;
+}
+/* End Section End */
+
+/* Responsive Baner img  */
+@media (max-width : 1004px) {
+    .Bg_Image{
+        height: 100vh;
+        
+        background-image: url("../../images/bannerBackground.jpg");
+        background-position: center ;
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    .Header_Label{
+        max-height: 13rem;
+       padding: 3rem 0rem;
+        background-color: rgba(0, 0, 0, 0.651);
+    }
+}
+@media (max-width : 710px) {
+    .SectionPadding{
+        padding: 0px 20px;
+    }
+    .Header_Label h1{
+        font-size: 6vw; 
+      }
+     .Header_Label h4{
+     font-size: 3.3vw;
+    }
+    .Section_2_Topheading h3{
+        font-size: 2vw;
+    }
+    .Section_2_Topheading2 h3{
+        font-size : 4vw;
+       }  
+    .Sec_2_InnerHeading h2{
+    font-size: 5vw;
+    }
+    .Sec_2_InnerHeading p{
+    font-size: 2.8vw; 
+    font-weight: 400;
+    }  
+    .Sec_2_InnerHeading2 h3{
+        font-size: 4vw;
+    }
+    .Sec_2_InnerHeading2 h2{
+        font-size: 2.8vw;
+    }
+    /*  Section 2 End */
+    /*  Section 3 Start */
+    .Sec_3_Heading h1{
+    font-size: 4.8vw;
+    }
+    .Sec_3_Heading h1 span{
+    font-size: 4.8vw;
+    }
+    .Sec4_Heading h1{
+           font-size: 8vw;
+        }  
+     .Sec6_Heading h1{
+        font-size: 4.5vw; 
+        }
+        /*  Section 6 End */
+        /*  Section 7 End */
+        .Heading_7{
+            
+            font-size: 6vw;
+        }
+        /*  Section 7 End */   
+        .Sec9_heading h1{  
+        font-size: 5.4vw; 
+        }
+        .Sec9_heading button{  
+        font-size: 5vw; 
+        width: 30%;
+        }
+}
+/* Responsive Baner img  */
